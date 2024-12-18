@@ -1,0 +1,120 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightsteelblue;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1350px;
+   margin: 30px auto; 
+  padding: 10px; 
+  background: lightblue;
+  border-radius: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 27px;
+}
+.container h2{
+  text-align: center;
+}
+
+.message {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border: 1px solid #badbcc;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 15%; 
+  margin-bottom: 10px; 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: crimson; 
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 10px;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+table button {
+  margin-right: 5px;
+  background-color: #28a745;
+}
+
+table button:hover {
+  background-color: #218838;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+.item{
+  text-align: center;
+}
+.item1{
+  width:36% ;
+}
+.data{
+  text-align: center;
+  padding: 0px;
+}
+
